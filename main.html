@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AYUSH NGO Portal</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: white;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            position: relative;
+        }
+        header img {
+            height: 50px;
+            vertical-align: middle;
+            margin-right: 10px;
+        }
+        header h1 {
+            display: inline;
+            vertical-align: middle;
+            font-size: 1.8em;
+            color: black;
+        }
+        nav {
+            text-align: center;
+            padding: 10px;
+            background-color: #004080;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .banner {
+            background-image: url('img1.jpg'); /* Placeholder for background image */
+            background-size: cover;
+            background-position: center;
+            padding: 60px 20px;
+            text-align: center;
+            color: white;
+        }
+        .banner h2 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            color: black;
+        }
+        .about-section {
+            padding: 40px 20px;
+            background-color: white;
+        }
+        .about-section h3 {
+            font-size: 2em;
+            color: #003366;
+            margin-bottom: 20px;
+        }
+        .about-section p {
+            font-size: 1.2em;
+            line-height: 1.6;
+        }
+        .about-section img {
+            width: 100%;
+            max-width: 600px;
+            margin-top: 20px;
+            border-radius: 10px;
+        }
+        .button-group {
+            text-align: center;
+            margin-top: 30px;
+        }
+        .button-group button {
+            background-color: #003366;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 1.2em;
+            cursor: pointer;
+            margin: 5px;
+            transition: background-color 0.3s;
+        }
+        .button-group button:hover {
+            background-color: #00509e;
+        }
+        footer {
+            background-color: #003366;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWLe7xWaVl2u4Mz2RUN2_KGAGrE0DKQVH3bQ&s" alt="Government Logo"> <!-- Placeholder for the government logo -->
+    <h1>Ministry of Ayush, Govt. of India</h1>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">About us</a>
+    <a href="#">Schemes</a>
+    <a href="#">Reports</a>
+    <a href="#">Media</a>
+    <a href="#">Circulars</a>
+    <a href="#">Help</a>
+    <a href="#">Contact us</a>
+</nav>
+
+<div class="banner">
+    <h2>About Ayush NGO Portal</h2>
+    <p style="color: black;">The Ministry has developed this portal for digitalization of various processes involved in all Central Sector Schemes of the Ministry.</p>
+</div>
+
+<div class="about-section">
+    <h3>About the Ministry of AYUSH</h3>
+    <p>The Ministry of Ayush was formed on the 9th of November 2014 with a vision of reviving the profound knowledge of our ancient systems of medicine and ensuring the optimal development and propagation of the Ayush systems of healthcare...</p>
+    <img src="img2.jpg" alt="AYUSH Image"> <!-- Placeholder for the about image -->
+    <div class="button-group">
+        <button id="register-btn">Register</button>
+        <button id="login-btn">Login</button>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2024 Ministry of Ayush, Govt. of India</p>
+</footer>
+
+<script>
+    document.getElementById("register-btn").addEventListener("click", function() {
+        window.location.href = "index.html"; // Link to the registration page
+    });
+
+    document.getElementById("login-btn").addEventListener("click", function() {
+        window.location.href = "login.html"; // Link to the login page
+    });
+</script>
+
+</body>
+</html>
